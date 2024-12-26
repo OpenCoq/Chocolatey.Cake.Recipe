@@ -1,0 +1,28 @@
+{
+    "name": "chocolatey-cake-recipe",
+    "version": "1.0.0",
+    "description": "A powerful and flexible Cake recipe for building and publishing Chocolatey packages",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest",
+      "lint": "eslint .",
+      "format": "prettier --write ."
+    },
+    "keywords": [
+      "chocolatey",
+      "cake",
+      "build",
+      "automation"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+      "jest": "^29.7.0",
+      "eslint": "^8.56.0",
+      "prettier": "^3.1.1"
+    },
+    "dependencies": {
+      "semver": "^7.5.4",
+      "winston": "^3.11.0"
+    }
+  }
